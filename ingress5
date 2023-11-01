@@ -8,6 +8,8 @@ kubectl get pods -n nginx-ingress -w
 
 kubectl get svc -n nginx-ingress
 
+kubectl create -f service/nodeport.yaml
+
 sudo vim /etc/hosts
 
             sesame.devops.com
