@@ -24,6 +24,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
   name: devops  
 spec:
+  ingressClassName: nginx
   rules:
     - host: sesame.devops.com
       http:
