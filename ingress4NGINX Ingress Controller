@@ -1,0 +1,5 @@
+kubectl apply -f deployment/appprotect-dos-arb.yaml
+kubectl apply -f service/appprotect-dos-arb-svc.yaml
+
+kubectl apply -f deployment/nginx-ingress.yaml
+kubectl apply -f deployment/nginx-plus-ingress.yaml
